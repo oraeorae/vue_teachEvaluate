@@ -267,7 +267,7 @@ export const asyncRouterMap = [
             path: '/notice/detail',
             name: 'Detail',
             component: () => import('@/views/notice/Detail'),
-            meta: { title: 'menu.notice.detail', keepAlive: true, permission: ['notice_dis'] }
+            meta: { title: 'menu.notice.detail', permission: ['notice_dis'] }
           }
         ]
       },

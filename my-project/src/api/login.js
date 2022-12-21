@@ -57,6 +57,7 @@ export function getCurrentUserNav () {
   })
 }
 
+/*
 export function logout () {
   return request({
     url: userApi.Logout,
@@ -66,6 +67,7 @@ export function logout () {
     }
   })
 }
+*/
 
 /**
  * get user 2step code open?
